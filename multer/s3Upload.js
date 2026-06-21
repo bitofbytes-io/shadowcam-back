@@ -13,6 +13,9 @@ const s3 = new S3Client({
 });
 
 const upload = multer({
+  limits: {
+    fieldNestingDepth: 0
+  },
   storage: multerS3({
     s3: s3,
     bucket: "shadowcam-back",
