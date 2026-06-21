@@ -3,6 +3,9 @@ const { db } = require("../database/db");
 const sql = require("../database/sql");
 
 const localUpload = multer({
+  limits: {
+    fieldNestingDepth: 0
+  },
   storage: multer.diskStorage({
     destination: "./public/videos/",
     filename: function(req, file, cb) {
