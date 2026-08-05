@@ -28,7 +28,7 @@
     "pg-promise": "^11.5.5"
   },
   "devDependencies": {
-    "nodemon": "^3.1.11",
+    "nodemon": "^3.1.14",
     "supertest": "^4.0.2"
   }
 }
