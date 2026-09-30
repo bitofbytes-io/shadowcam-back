@@ -20,7 +20,7 @@
     "dotenv": "^7.0.0",
     "express": "^5.2.1",
     "jsonwebtoken": "*",
-    "moment": "^2.29.4",
+    "moment": "^2.31.0",
     "multer": "^2.4.0",
     "multer-s3": "^3.0.1",
     "passport": "^0.6.0",
